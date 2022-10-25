@@ -1,0 +1,897 @@
+    /* the following code are auto-generated */
+    const std::string ALPHA = "alpha";
+    const std::string APERTURE_OFFSET = "aperture_offset";
+    const std::string APERTURE_OFFSET_2 = "aperture_offset_2";
+    const std::string APERTURE_OFFSET_3 = "aperture_offset_3";
+    const std::string APERTURE_TABLE = "aperture_table";
+    const std::string B_DISTANCE_CORRECTION = "b_distance_correction";
+    const std::string B_E_DEC = "b_e_dec";
+    const std::string B_E_DEC_1 = "b_e_dec_1";
+    const std::string B_E_PHASE = "b_e_phase";
+    const std::string B_IFACTOR = "b_ifactor";
+    const std::string B_OFFSET = "b_offset";
+    const std::string B_REFL_FACTOR = "b_refl_factor";
+    const std::string B_SHIFT = "b_shift";
+    const std::string B_SHIFT_1 = "b_shift_1";
+    const std::string B_TEMP_VBR0 = "b_temp_vbr0";
+    const std::string B_TILT = "b_tilt";
+    const std::string B_VBR0 = "b_vbr0";
+    const std::string CHANNEL_0_DELAY_CORRECTION = "channel_0_delay_correction";
+    const std::string CHANNEL_0_LE_POLYNOMIAL = "channel_0_le_polynomial";
+    const std::string CHANNEL_0_WC_POLYNOMIAL = "channel_0_wc_polynomial";
+    const std::string CHANNEL_1_DELAY_CORRECTION = "channel_1_delay_correction";
+    const std::string CHANNEL_1_LE_POLYNOMIAL = "channel_1_le_polynomial";
+    const std::string CHANNEL_1_WC_POLYNOMIAL = "channel_1_wc_polynomial";
+    const std::string CHANNEL_2_DELAY_CORRECTION = "channel_2_delay_correction";
+    const std::string CHANNEL_2_LE_POLYNOMIAL = "channel_2_le_polynomial";
+    const std::string CHANNEL_2_WC_POLYNOMIAL = "channel_2_wc_polynomial";
+    const std::string CHANNEL_3_DELAY_CORRECTION = "channel_3_delay_correction";
+    const std::string CHANNEL_3_LE_POLYNOMIAL = "channel_3_le_polynomial";
+    const std::string CHANNEL_3_WC_POLYNOMIAL = "channel_3_wc_polynomial";
+    const std::string CTR = "ctr";
+    const std::string DEVICE_MODEL = "device_model";
+    const std::string DEVICE_SN = "device_sn";
+    const std::string DIST_CORR_MAX_INTENSITY = "dist_corr_max_intensity";
+    const std::string DIST_CORR_TRANSITION_HIGH = "dist_corr_transition_high";
+    const std::string DIST_CORR_TRANSITION_INTENSITY = "dist_corr_transition_intensity";
+    const std::string DIST_CORR_TRANSITION_LOW = "dist_corr_transition_low";
+    const std::string DISTANCE_CORRECTION = "distance_correction";
+    const std::string DISTANCE_CORRECTION_2 = "distance_correction_2";
+    const std::string F_ALPHA = "f_alpha";
+    const std::string F_GAMMA = "f_gamma";
+    const std::string F_INT_VBR0 = "f_int_vbr0";
+    const std::string F_TEMP_VBR0 = "f_temp_vbr0";
+    const std::string F_VBR0 = "f_vbr0";
+    const std::string FOV_BOTTOM_HALF_P_ANGLE = "fov_bottom_half_p_angle";
+    const std::string FOV_TOP_HALF_P_ANGLE = "fov_top_half_p_angle";
+    const std::string G_CENTER_ANGLE = "g_center_angle";
+    const std::string G_SCAN_RANGE = "g_scan_range";
+    const std::string G_TILT = "g_tilt";
+    const std::string G_TILT2 = "g_tilt2";
+    const std::string GALVO_GAIN_FACTOR = "galvo_gain_factor";
+    const std::string GALVO_OFFSET_FACTOR = "galvo_offset_factor";
+    const std::string GAMMA = "gamma";
+    const std::string H_ADJUSTMENT = "h_adjustment";
+    const std::string H_LASER = "h_laser";
+    const std::string HO_ADJUSTMENT = "ho_adjustment";
+    const std::string IGNORE_WINDOW_CORRECTION = "ignore_window_correction";
+    const std::string INTENSITY_TO_POWER_TABLE = "intensity_to_power_table";
+    const std::string INTENSITY_TO_POWER_TABLE_2 = "intensity_to_power_table_2";
+    const std::string K_DIS = "k_dis";
+    const std::string K_DIS_2 = "k_dis_2";
+    const std::string K_INT = "k_int";
+    const std::string K_REF = "k_ref";
+    const std::string K_REF_2 = "k_ref_2";
+    const std::string MCTI = "mcti";
+    const std::string MIDDLE_ANGLE = "middle_angle";
+    const std::string MIN_BIAS = "min_bias";
+    const std::string N_B = "n_b";
+    const std::string N_P = "n_p";
+    const std::string NOMINAL_INTENSITY = "nominal_intensity";
+    const std::string NOMINAL_VOLTAGE = "nominal_voltage";
+    const std::string P_AXIS_AZIMUTH = "p_axis_azimuth";
+    const std::string P_AXIS_POLAR = "p_axis_polar";
+    const std::string P_AXIS_TILT = "p_axis_tilt";
+    const std::string P_OFF_CENTER = "p_off_center";
+    const std::string P_OFFSET = "p_offset";
+    const std::string P_SHIFT = "p_shift";
+    const std::string P_TILT = "p_tilt";
+    const std::string POWER_TO_INTENSITY_TABLE = "power_to_intensity_table";
+    const std::string POWER_VS_DISTANCE_TABLE = "power_vs_distance_table";
+    const std::string REFERENCE_TIME = "reference_time";
+    const std::string REFL_FACTOR = "refl_factor";
+    const std::string RETRO_INTENSITY = "retro_intensity";
+    const std::string RETRO_INTENSITY_2 = "retro_intensity_2";
+    const std::string ROI_H_MAX = "roi_h_max";
+    const std::string ROI_H_MIN = "roi_h_min";
+    const std::string ROI_V_MAX = "roi_v_max";
+    const std::string ROI_V_MIN = "roi_v_min";
+    const std::string SHIFT_ANGLE = "shift_angle";
+    const std::string SHIFT_N_Y = "shift_n_y";
+    const std::string SHIFT_N_Z = "shift_n_z";
+    const std::string T_DISTANCE_CORRECTION = "t_distance_correction";
+    const std::string T_IFACTOR = "t_ifactor";
+    const std::string T_REFL_FACTOR = "t_refl_factor";
+    const std::string T_TEMP_VBR0 = "t_temp_vbr0";
+    const std::string T_VBR0 = "t_vbr0";
+    const std::string TEMP_VBR0 = "temp_vbr0";
+    const std::string TILT_ANGLE = "tilt_angle";
+    const std::string TILT_N_X = "tilt_n_x";
+    const std::string TILT_N_Z = "tilt_n_z";
+    const std::string V_ADJUSTMENT = "v_adjustment";
+    const std::string V_OFFSET = "v_offset";
+    const std::string W_AMPLITUDE = "w_amplitude";
+    const std::string W_AXIS_ANGLE = "w_axis_angle";
+    const std::string W_PHASE = "w_phase";
+    const std::string WINDOW_CORRECTION_TABLE = "window_correction_table";
+    const std::string WINDOW_TRANSMITTANCE = "window_transmittance";
+    /* the following code are auto-generated */
+    static void get_params_from_simple_parser(const SimpleYAMLParser &p, IvParams *params) {
+        int param_i = 0;
+
+        for (param_i = 0; param_i < 2; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "alpha_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->alpha[param_i]);
+        }
+
+
+        p.get_param_value_from_map("aperture_offset", &params->aperture_offset);
+
+        p.get_param_value_from_map("aperture_offset_2", &params->aperture_offset_2);
+
+        p.get_param_value_from_map("aperture_offset_3", &params->aperture_offset_3);
+
+        for (param_i = 0; param_i < 12100; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "aperture_table_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->aperture_table[param_i]);
+        }
+
+
+        p.get_param_value_from_map("b_distance_correction", &params->b_distance_correction);
+
+        p.get_param_value_from_map("b_e_dec", &params->b_e_dec);
+
+        p.get_param_value_from_map("b_e_dec_1", &params->b_e_dec_1);
+
+        p.get_param_value_from_map("b_e_phase", &params->b_e_phase);
+
+        for (param_i = 0; param_i < 6; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "b_ifactor_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->b_ifactor[param_i]);
+        }
+
+
+        p.get_param_value_from_map("b_offset", &params->b_offset);
+
+        p.get_param_value_from_map("b_refl_factor", &params->b_refl_factor);
+
+        for (param_i = 0; param_i < 6; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "b_shift_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->b_shift[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 6; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "b_shift_1_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->b_shift_1[param_i]);
+        }
+
+
+        p.get_param_value_from_map("b_temp_vbr0", &params->b_temp_vbr0);
+
+        for (param_i = 0; param_i < 6; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "b_tilt_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->b_tilt[param_i]);
+        }
+
+
+        p.get_param_value_from_map("b_vbr0", &params->b_vbr0);
+
+        for (param_i = 0; param_i < 704; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_0_delay_correction_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_0_delay_correction[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 10; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_0_le_polynomial_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_0_le_polynomial[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 10; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_0_wc_polynomial_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_0_wc_polynomial[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 704; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_1_delay_correction_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_1_delay_correction[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 10; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_1_le_polynomial_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_1_le_polynomial[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 10; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_1_wc_polynomial_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_1_wc_polynomial[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 704; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_2_delay_correction_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_2_delay_correction[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 10; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_2_le_polynomial_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_2_le_polynomial[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 10; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_2_wc_polynomial_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_2_wc_polynomial[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 704; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_3_delay_correction_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_3_delay_correction[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 10; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_3_le_polynomial_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_3_le_polynomial[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 10; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "channel_3_wc_polynomial_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->channel_3_wc_polynomial[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 3; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "ctr_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->ctr[param_i]);
+        }
+
+
+        p.get_param_value_from_map("device_model", &params->device_model);
+
+        p.get_param_value_from_map("device_sn", &params->device_sn);
+
+        p.get_param_value_from_map("dist_corr_max_intensity", &params->dist_corr_max_intensity);
+
+        p.get_param_value_from_map("dist_corr_transition_high", &params->dist_corr_transition_high);
+
+        p.get_param_value_from_map("dist_corr_transition_intensity", &params->dist_corr_transition_intensity);
+
+        p.get_param_value_from_map("dist_corr_transition_low", &params->dist_corr_transition_low);
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "distance_correction_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->distance_correction[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "distance_correction_2_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->distance_correction_2[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "f_alpha_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->f_alpha[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "f_gamma_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->f_gamma[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "f_int_vbr0_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->f_int_vbr0[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "f_temp_vbr0_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->f_temp_vbr0[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "f_vbr0_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->f_vbr0[param_i]);
+        }
+
+
+        p.get_param_value_from_map("fov_bottom_half_p_angle", &params->fov_bottom_half_p_angle);
+
+        p.get_param_value_from_map("fov_top_half_p_angle", &params->fov_top_half_p_angle);
+
+        p.get_param_value_from_map("g_center_angle", &params->g_center_angle);
+
+        p.get_param_value_from_map("g_scan_range", &params->g_scan_range);
+
+        p.get_param_value_from_map("g_tilt", &params->g_tilt);
+
+        p.get_param_value_from_map("g_tilt2", &params->g_tilt2);
+
+        p.get_param_value_from_map("galvo_gain_factor", &params->galvo_gain_factor);
+
+        p.get_param_value_from_map("galvo_offset_factor", &params->galvo_offset_factor);
+
+        for (param_i = 0; param_i < 2; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "gamma_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->gamma[param_i]);
+        }
+
+
+        p.get_param_value_from_map("h_adjustment", &params->h_adjustment);
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "h_laser_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->h_laser[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "ho_adjustment_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->ho_adjustment[param_i]);
+        }
+
+
+        p.get_param_value_from_map("ignore_window_correction", &params->ignore_window_correction);
+
+        for (param_i = 0; param_i < 704; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "intensity_to_power_table_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->intensity_to_power_table[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 704; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "intensity_to_power_table_2_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->intensity_to_power_table_2[param_i]);
+        }
+
+
+        p.get_param_value_from_map("k_dis", &params->k_dis);
+
+        p.get_param_value_from_map("k_dis_2", &params->k_dis_2);
+
+        p.get_param_value_from_map("k_int", &params->k_int);
+
+        p.get_param_value_from_map("k_ref", &params->k_ref);
+
+        p.get_param_value_from_map("k_ref_2", &params->k_ref_2);
+
+        p.get_param_value_from_map("mcti", &params->mcti);
+
+        p.get_param_value_from_map("middle_angle", &params->middle_angle);
+
+        p.get_param_value_from_map("min_bias", &params->min_bias);
+
+        p.get_param_value_from_map("n_b", &params->n_b);
+
+        p.get_param_value_from_map("n_p", &params->n_p);
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "nominal_intensity_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->nominal_intensity[param_i]);
+        }
+
+
+        p.get_param_value_from_map("nominal_voltage", &params->nominal_voltage);
+
+        p.get_param_value_from_map("p_axis_azimuth", &params->p_axis_azimuth);
+
+        p.get_param_value_from_map("p_axis_polar", &params->p_axis_polar);
+
+        p.get_param_value_from_map("p_axis_tilt", &params->p_axis_tilt);
+
+        p.get_param_value_from_map("p_off_center", &params->p_off_center);
+
+        p.get_param_value_from_map("p_offset", &params->p_offset);
+
+        for (param_i = 0; param_i < 7; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "p_shift_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->p_shift[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 7; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "p_tilt_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->p_tilt[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 900; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "power_to_intensity_table_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->power_to_intensity_table[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 901; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "power_vs_distance_table_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->power_vs_distance_table[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "reference_time_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->reference_time[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "refl_factor_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->refl_factor[param_i]);
+        }
+
+
+        p.get_param_value_from_map("retro_intensity", &params->retro_intensity);
+
+        p.get_param_value_from_map("retro_intensity_2", &params->retro_intensity_2);
+
+        p.get_param_value_from_map("roi_h_max", &params->roi_h_max);
+
+        p.get_param_value_from_map("roi_h_min", &params->roi_h_min);
+
+        p.get_param_value_from_map("roi_v_max", &params->roi_v_max);
+
+        p.get_param_value_from_map("roi_v_min", &params->roi_v_min);
+
+        p.get_param_value_from_map("shift_angle", &params->shift_angle);
+
+        p.get_param_value_from_map("shift_n_y", &params->shift_n_y);
+
+        p.get_param_value_from_map("shift_n_z", &params->shift_n_z);
+
+        p.get_param_value_from_map("t_distance_correction", &params->t_distance_correction);
+
+        for (param_i = 0; param_i < 6; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "t_ifactor_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->t_ifactor[param_i]);
+        }
+
+
+        p.get_param_value_from_map("t_refl_factor", &params->t_refl_factor);
+
+        p.get_param_value_from_map("t_temp_vbr0", &params->t_temp_vbr0);
+
+        p.get_param_value_from_map("t_vbr0", &params->t_vbr0);
+
+        p.get_param_value_from_map("temp_vbr0", &params->temp_vbr0);
+
+        p.get_param_value_from_map("tilt_angle", &params->tilt_angle);
+
+        p.get_param_value_from_map("tilt_n_x", &params->tilt_n_x);
+
+        p.get_param_value_from_map("tilt_n_z", &params->tilt_n_z);
+
+        for (param_i = 0; param_i < 4; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "v_adjustment_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->v_adjustment[param_i]);
+        }
+
+
+        p.get_param_value_from_map("v_offset", &params->v_offset);
+
+        p.get_param_value_from_map("w_amplitude", &params->w_amplitude);
+
+        p.get_param_value_from_map("w_axis_angle", &params->w_axis_angle);
+
+        p.get_param_value_from_map("w_phase", &params->w_phase);
+
+        for (param_i = 0; param_i < 6624; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "window_correction_table_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->window_correction_table[param_i]);
+        }
+
+
+        for (param_i = 0; param_i < 121; param_i++) {
+            std::stringstream ss;
+            ss << param_i;
+            std::string s = ss.str();
+            std::string ka = "window_transmittance_" + s;
+            p.get_param_value_from_map(ka.c_str(), &params->window_transmittance[param_i]);
+        }
+
+    }
+    /* the following code are auto-generated */
+    static std::ostringstream & operator << (std::ostringstream &out, const IvParams &params) {
+        int param_i = 0;
+
+        out << "alpha" << ": \n";
+        for (param_i = 0; param_i < 2; param_i++) {
+            out << "  - " << params.alpha[param_i] << "\n";
+        }
+        out << "aperture_offset" << ": " << params.aperture_offset << "\n";
+        out << "aperture_offset_2" << ": " << params.aperture_offset_2 << "\n";
+        out << "aperture_offset_3" << ": " << params.aperture_offset_3 << "\n";
+
+        out << "aperture_table" << ": \n";
+        for (param_i = 0; param_i < 5 /*12100*/; param_i++) {
+            out << "  - " << params.aperture_table[param_i] << "\n";
+        }
+        out << "b_distance_correction" << ": " << params.b_distance_correction << "\n";
+        out << "b_e_dec" << ": " << params.b_e_dec << "\n";
+        out << "b_e_dec_1" << ": " << params.b_e_dec_1 << "\n";
+        out << "b_e_phase" << ": " << params.b_e_phase << "\n";
+
+        out << "b_ifactor" << ": \n";
+        for (param_i = 0; param_i < 6; param_i++) {
+            out << "  - " << params.b_ifactor[param_i] << "\n";
+        }
+        out << "b_offset" << ": " << params.b_offset << "\n";
+        out << "b_refl_factor" << ": " << params.b_refl_factor << "\n";
+
+        out << "b_shift" << ": \n";
+        for (param_i = 0; param_i < 6; param_i++) {
+            out << "  - " << params.b_shift[param_i] << "\n";
+        }
+
+        out << "b_shift_1" << ": \n";
+        for (param_i = 0; param_i < 6; param_i++) {
+            out << "  - " << params.b_shift_1[param_i] << "\n";
+        }
+        out << "b_temp_vbr0" << ": " << params.b_temp_vbr0 << "\n";
+
+        out << "b_tilt" << ": \n";
+        for (param_i = 0; param_i < 6; param_i++) {
+            out << "  - " << params.b_tilt[param_i] << "\n";
+        }
+        out << "b_vbr0" << ": " << params.b_vbr0 << "\n";
+
+        out << "channel_0_delay_correction" << ": \n";
+        for (param_i = 0; param_i < 5 /*704*/; param_i++) {
+            out << "  - " << params.channel_0_delay_correction[param_i] << "\n";
+        }
+
+        out << "channel_0_le_polynomial" << ": \n";
+        for (param_i = 0; param_i < 10; param_i++) {
+            out << "  - " << params.channel_0_le_polynomial[param_i] << "\n";
+        }
+
+        out << "channel_0_wc_polynomial" << ": \n";
+        for (param_i = 0; param_i < 10; param_i++) {
+            out << "  - " << params.channel_0_wc_polynomial[param_i] << "\n";
+        }
+
+        out << "channel_1_delay_correction" << ": \n";
+        for (param_i = 0; param_i < 5 /*704*/; param_i++) {
+            out << "  - " << params.channel_1_delay_correction[param_i] << "\n";
+        }
+
+        out << "channel_1_le_polynomial" << ": \n";
+        for (param_i = 0; param_i < 10; param_i++) {
+            out << "  - " << params.channel_1_le_polynomial[param_i] << "\n";
+        }
+
+        out << "channel_1_wc_polynomial" << ": \n";
+        for (param_i = 0; param_i < 10; param_i++) {
+            out << "  - " << params.channel_1_wc_polynomial[param_i] << "\n";
+        }
+
+        out << "channel_2_delay_correction" << ": \n";
+        for (param_i = 0; param_i < 5 /*704*/; param_i++) {
+            out << "  - " << params.channel_2_delay_correction[param_i] << "\n";
+        }
+
+        out << "channel_2_le_polynomial" << ": \n";
+        for (param_i = 0; param_i < 10; param_i++) {
+            out << "  - " << params.channel_2_le_polynomial[param_i] << "\n";
+        }
+
+        out << "channel_2_wc_polynomial" << ": \n";
+        for (param_i = 0; param_i < 10; param_i++) {
+            out << "  - " << params.channel_2_wc_polynomial[param_i] << "\n";
+        }
+
+        out << "channel_3_delay_correction" << ": \n";
+        for (param_i = 0; param_i < 5 /*704*/; param_i++) {
+            out << "  - " << params.channel_3_delay_correction[param_i] << "\n";
+        }
+
+        out << "channel_3_le_polynomial" << ": \n";
+        for (param_i = 0; param_i < 10; param_i++) {
+            out << "  - " << params.channel_3_le_polynomial[param_i] << "\n";
+        }
+
+        out << "channel_3_wc_polynomial" << ": \n";
+        for (param_i = 0; param_i < 10; param_i++) {
+            out << "  - " << params.channel_3_wc_polynomial[param_i] << "\n";
+        }
+
+        out << "ctr" << ": \n";
+        for (param_i = 0; param_i < 3; param_i++) {
+            out << "  - " << params.ctr[param_i] << "\n";
+        }
+        out << "device_model" << ": " << params.device_model << "\n";
+        out << "device_sn" << ": " << params.device_sn << "\n";
+        out << "dist_corr_max_intensity" << ": " << params.dist_corr_max_intensity << "\n";
+        out << "dist_corr_transition_high" << ": " << params.dist_corr_transition_high << "\n";
+        out << "dist_corr_transition_intensity" << ": " << params.dist_corr_transition_intensity << "\n";
+        out << "dist_corr_transition_low" << ": " << params.dist_corr_transition_low << "\n";
+
+        out << "distance_correction" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.distance_correction[param_i] << "\n";
+        }
+
+        out << "distance_correction_2" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.distance_correction_2[param_i] << "\n";
+        }
+
+        out << "f_alpha" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.f_alpha[param_i] << "\n";
+        }
+
+        out << "f_gamma" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.f_gamma[param_i] << "\n";
+        }
+
+        out << "f_int_vbr0" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.f_int_vbr0[param_i] << "\n";
+        }
+
+        out << "f_temp_vbr0" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.f_temp_vbr0[param_i] << "\n";
+        }
+
+        out << "f_vbr0" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.f_vbr0[param_i] << "\n";
+        }
+        out << "fov_bottom_half_p_angle" << ": " << params.fov_bottom_half_p_angle << "\n";
+        out << "fov_top_half_p_angle" << ": " << params.fov_top_half_p_angle << "\n";
+        out << "g_center_angle" << ": " << params.g_center_angle << "\n";
+        out << "g_scan_range" << ": " << params.g_scan_range << "\n";
+        out << "g_tilt" << ": " << params.g_tilt << "\n";
+        out << "g_tilt2" << ": " << params.g_tilt2 << "\n";
+        out << "galvo_gain_factor" << ": " << params.galvo_gain_factor << "\n";
+        out << "galvo_offset_factor" << ": " << params.galvo_offset_factor << "\n";
+
+        out << "gamma" << ": \n";
+        for (param_i = 0; param_i < 2; param_i++) {
+            out << "  - " << params.gamma[param_i] << "\n";
+        }
+        out << "h_adjustment" << ": " << params.h_adjustment << "\n";
+
+        out << "h_laser" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.h_laser[param_i] << "\n";
+        }
+
+        out << "ho_adjustment" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.ho_adjustment[param_i] << "\n";
+        }
+        out << "ignore_window_correction" << ": " << params.ignore_window_correction << "\n";
+
+        out << "intensity_to_power_table" << ": \n";
+        for (param_i = 0; param_i < 5 /*704*/; param_i++) {
+            out << "  - " << params.intensity_to_power_table[param_i] << "\n";
+        }
+
+        out << "intensity_to_power_table_2" << ": \n";
+        for (param_i = 0; param_i < 5 /*704*/; param_i++) {
+            out << "  - " << params.intensity_to_power_table_2[param_i] << "\n";
+        }
+        out << "k_dis" << ": " << params.k_dis << "\n";
+        out << "k_dis_2" << ": " << params.k_dis_2 << "\n";
+        out << "k_int" << ": " << params.k_int << "\n";
+        out << "k_ref" << ": " << params.k_ref << "\n";
+        out << "k_ref_2" << ": " << params.k_ref_2 << "\n";
+        out << "mcti" << ": " << params.mcti << "\n";
+        out << "middle_angle" << ": " << params.middle_angle << "\n";
+        out << "min_bias" << ": " << params.min_bias << "\n";
+        out << "n_b" << ": " << params.n_b << "\n";
+        out << "n_p" << ": " << params.n_p << "\n";
+
+        out << "nominal_intensity" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.nominal_intensity[param_i] << "\n";
+        }
+        out << "nominal_voltage" << ": " << params.nominal_voltage << "\n";
+        out << "p_axis_azimuth" << ": " << params.p_axis_azimuth << "\n";
+        out << "p_axis_polar" << ": " << params.p_axis_polar << "\n";
+        out << "p_axis_tilt" << ": " << params.p_axis_tilt << "\n";
+        out << "p_off_center" << ": " << params.p_off_center << "\n";
+        out << "p_offset" << ": " << params.p_offset << "\n";
+
+        out << "p_shift" << ": \n";
+        for (param_i = 0; param_i < 7; param_i++) {
+            out << "  - " << params.p_shift[param_i] << "\n";
+        }
+
+        out << "p_tilt" << ": \n";
+        for (param_i = 0; param_i < 7; param_i++) {
+            out << "  - " << params.p_tilt[param_i] << "\n";
+        }
+
+        out << "power_to_intensity_table" << ": \n";
+        for (param_i = 0; param_i < 5 /*900*/; param_i++) {
+            out << "  - " << params.power_to_intensity_table[param_i] << "\n";
+        }
+
+        out << "power_vs_distance_table" << ": \n";
+        for (param_i = 0; param_i < 5 /*901*/; param_i++) {
+            out << "  - " << params.power_vs_distance_table[param_i] << "\n";
+        }
+
+        out << "reference_time" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.reference_time[param_i] << "\n";
+        }
+
+        out << "refl_factor" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.refl_factor[param_i] << "\n";
+        }
+        out << "retro_intensity" << ": " << params.retro_intensity << "\n";
+        out << "retro_intensity_2" << ": " << params.retro_intensity_2 << "\n";
+        out << "roi_h_max" << ": " << params.roi_h_max << "\n";
+        out << "roi_h_min" << ": " << params.roi_h_min << "\n";
+        out << "roi_v_max" << ": " << params.roi_v_max << "\n";
+        out << "roi_v_min" << ": " << params.roi_v_min << "\n";
+        out << "shift_angle" << ": " << params.shift_angle << "\n";
+        out << "shift_n_y" << ": " << params.shift_n_y << "\n";
+        out << "shift_n_z" << ": " << params.shift_n_z << "\n";
+        out << "t_distance_correction" << ": " << params.t_distance_correction << "\n";
+
+        out << "t_ifactor" << ": \n";
+        for (param_i = 0; param_i < 6; param_i++) {
+            out << "  - " << params.t_ifactor[param_i] << "\n";
+        }
+        out << "t_refl_factor" << ": " << params.t_refl_factor << "\n";
+        out << "t_temp_vbr0" << ": " << params.t_temp_vbr0 << "\n";
+        out << "t_vbr0" << ": " << params.t_vbr0 << "\n";
+        out << "temp_vbr0" << ": " << params.temp_vbr0 << "\n";
+        out << "tilt_angle" << ": " << params.tilt_angle << "\n";
+        out << "tilt_n_x" << ": " << params.tilt_n_x << "\n";
+        out << "tilt_n_z" << ": " << params.tilt_n_z << "\n";
+
+        out << "v_adjustment" << ": \n";
+        for (param_i = 0; param_i < 4; param_i++) {
+            out << "  - " << params.v_adjustment[param_i] << "\n";
+        }
+        out << "v_offset" << ": " << params.v_offset << "\n";
+        out << "w_amplitude" << ": " << params.w_amplitude << "\n";
+        out << "w_axis_angle" << ": " << params.w_axis_angle << "\n";
+        out << "w_phase" << ": " << params.w_phase << "\n";
+
+        out << "window_correction_table" << ": \n";
+        for (param_i = 0; param_i < 5 /*6624*/; param_i++) {
+            out << "  - " << params.window_correction_table[param_i] << "\n";
+        }
+
+        out << "window_transmittance" << ": \n";
+        for (param_i = 0; param_i < 5 /*121*/; param_i++) {
+            out << "  - " << params.window_transmittance[param_i] << "\n";
+        }
+
+        return out;
+    }

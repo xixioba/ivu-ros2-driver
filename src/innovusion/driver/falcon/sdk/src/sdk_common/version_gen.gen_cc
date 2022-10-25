@@ -1,0 +1,14 @@
+/**
+ *  Copyright (C) 2021 - Innovusion Inc.
+ *
+ *  All Rights Reserved.
+ *
+ *  $Id$
+ */
+#ifndef CUSTOMER_RELEASE
+static const char inno_api_version_g[] = "DEV-internal";
+#else
+static const char inno_api_version_g[] = "DEV";
+#endif
+
+static const char inno_api_build_tag_g[] = "LOCAL-BUILD";
