@@ -27,6 +27,7 @@ find_package(sensor_msgs REQUIRED)
 find_package(PCL REQUIRED)
 find_package(message_filters REQUIRED)
 find_package(pcl_msgs REQUIRED)
+find_package(pcl_conversions REQUIRED)
 
 find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
@@ -103,6 +104,7 @@ ament_target_dependencies(publisher
   sensor_msgs
   message_filters
   pcl_msgs
+  pcl_conversions
 )
 
 IF(APPLE)
@@ -138,6 +140,7 @@ ament_target_dependencies(subscriber
   "std_msgs"
   message_filters
   pcl_msgs
+  pcl_conversions
 )
 
 # install group
